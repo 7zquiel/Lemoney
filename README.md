@@ -38,3 +38,6 @@ O principal objetivo do projeto é adquirir conhecimentos nas seguintes tecnolog
    git branch                              //shows all the branches in the directory
    git branch <branch.name>                //creates a new branch
    git checkout <branch.name>              //navigates to a branch
+   git checkout HEAD <file>                //replaces the file with the last commited version of it
+   git diff                                //shows all the modifications made
+   git diff --name-only                    //shows only the names of all the files that were modificated
